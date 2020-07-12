@@ -1,8 +1,8 @@
 {
   "name": "chrome-extension-template-webpack-babel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "repository": "https://github.com/17number/chrome-extension-template-webpack-babel.git",
+  "author": "17number",
+  "license": "MIT",
   "scripts": {
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack --config webpack.dev.js --watch",
@@ -11,9 +11,6 @@
     "prerelease": "run-s mkdir:release prod",
     "release": "node release $1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
