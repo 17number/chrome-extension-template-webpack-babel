@@ -21,5 +21,9 @@
     "webpack-cli": "^3.3.12",
     "webpack-extension-reloader": "^1.1.4",
     "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.27.0"
   }
 }
