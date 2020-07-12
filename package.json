@@ -7,7 +7,9 @@
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack --config webpack.dev.js --watch",
     "prod": "webpack --config webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mkdir:release": "npx mkdirp release",
+    "prerelease": "run-s mkdir:release prod",
+    "release": "node release $1"
   },
   "keywords": [],
   "author": "",
