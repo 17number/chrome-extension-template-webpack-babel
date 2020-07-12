@@ -75,6 +75,8 @@ $ npm run release v0.0.1
 - [`release.js`](https://github.com/17number/chrome-extension-template-webpack-babel/blob/master/release.js#L2): `destination`
 - [`package.json`](https://github.com/17number/chrome-extension-template-webpack-babel/blob/master/package.json#L10): `mkdir:release`
 
-## 簡単な解説(WIP)
+## 簡単な解説
 
-[ブログ](http://r17n.page/)に記事を整理中
+[ブログ](http://r17n.page/)に簡単な記事を書いた。
+
+[webpack & Babel を使って Chrome 拡張機能を開発するためのテンプレート(Hot Reload 付き)](http://r17n.page/2020/07/12/chrome-extension-webpack-babel/)
