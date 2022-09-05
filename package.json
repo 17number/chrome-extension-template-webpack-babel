@@ -34,7 +34,7 @@
     "webpack-merge": "^5.1.4"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "moment": "^2.29.4"
   }
 }
